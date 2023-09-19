@@ -489,7 +489,7 @@ export default function SwapForm() {
             )}
             {!account ? (
               <ButtonLight onClick={toggleWalletModal}>
-                <Trans>Connect Wallet</Trans>
+                <Trans>Connect</Trans>
               </ButtonLight>
             ) : (
               showApproveFlow && (

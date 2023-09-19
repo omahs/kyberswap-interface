@@ -388,7 +388,7 @@ export default function SwapForm() {
           />
         ) : (
           <ButtonLight onClick={toggleWalletModal}>
-            <Trans>Connect Wallet</Trans>
+            <Trans>Connect</Trans>
           </ButtonLight>
         )}
 
